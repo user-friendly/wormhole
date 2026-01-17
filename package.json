@@ -1,0 +1,17 @@
+{
+  "name": "wormhole",
+  "description": "A simple proxy for Heim testing.",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=18.19.0"
+  },
+  "scripts": {
+    "dev": "tsx proxy.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "tsx": "^4.21.0"
+  }
+}
