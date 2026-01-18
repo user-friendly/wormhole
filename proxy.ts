@@ -1,3 +1,8 @@
+//
+// Simple Node TS proxy server.
+// Author: ChatGPT.
+//
+
 import { default as http, IncomingMessage, ServerResponse } from "http";
 import url from "url";
 

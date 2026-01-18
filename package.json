@@ -1,6 +1,6 @@
 {
   "name": "wormhole",
-  "description": "A simple proxy for Heim testing.",
+  "description": "A simple proxy for Next.js testing.",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "tsx proxy.ts",
+    "devRaw": "tsx wormhole.ts",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
